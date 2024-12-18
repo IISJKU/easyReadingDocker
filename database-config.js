@@ -1,6 +1,6 @@
 module.exports = {
     driver: "mysql",
-    host: "localhost",
+    host: "db",
     user: "root",
     password: "",
     port:"3306",
