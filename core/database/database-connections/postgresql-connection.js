@@ -14,7 +14,7 @@ class PostrgreSQLConnection extends DatabaseConnectionBase{
             let mysql = require('mysql');
 
             connection = mysql.createConnection({
-                host: "localhost",
+                host: "db",
                 user: "root",
                 password: "",
                 database: "easyreading"
