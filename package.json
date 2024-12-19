@@ -49,6 +49,6 @@
     "node": "^8.x"
   },
   "scripts": {
-    "start": "node --inspect app.js"
+    "start": "node --env-file=.env app.js"
   }
 }
